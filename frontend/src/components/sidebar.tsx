@@ -13,6 +13,9 @@ export function Sidebar() {
     { name: "Pipelines", href: "/pipeline", icon: Box },
     { name: "Text Processing", href: "/text-processing", icon: Box },
     { name: "Programming", href: "/programming", icon: Box },
+    { name: "Student Assistant", href: "/student-assistant", icon: Box },
+    { name: "Business", href: "/business", icon: Box },
+    { name: "Data Science", href: "/datascience", icon: Box },
     { name: "Settings", href: "/dashboard/settings", icon: Settings },
   ];
 

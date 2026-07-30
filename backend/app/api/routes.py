@@ -14,10 +14,16 @@ from app.schemas.models import (
 
 from app.api.text_processing import router as tp_router
 from app.api.programming import router as prog_router
+from app.api.student_assistant import router as student_router
+from app.api.business import router as business_router
+from app.api.datascience import router as datascience_router
 
 router = APIRouter()
 router.include_router(tp_router)
 router.include_router(prog_router)
+router.include_router(student_router)
+router.include_router(business_router)
+router.include_router(datascience_router)
 
 @router.get("/agents")
 async def get_agents(search: str = None):
