@@ -1,0 +1,8 @@
+{
+  "name": "agentverse-100",
+  "version": "1.0.0",
+  "description": "Multi-agent platform",
+  "scripts": {
+    "postinstall": "cd frontend && npm install"
+  }
+}
